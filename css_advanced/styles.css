@@ -1,0 +1,266 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+/*# sourceMappingURL=normalize.min.css.map */
+
+* {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.background {
+    background-image: url('./images/big\ background\ woman.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 5px;
+}
+
+a[href="#"] {
+    color: #FFFFFF;
+    text-decoration: none;   
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 80%;
+    margin-left:5rem ;
+    padding: 1rem;
+}
+h1 {
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 8em;
+    margin-top: 16rem ;
+}
+.span {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30rem ;
+    width: 20%;
+    color: #FFFFFF;
+    font-weight: 700;
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    width:15%;
+    margin-left: 32rem;
+    background-color:#C271FF;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-top: 5rem;
+
+}
+
+h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 39px ;
+    font-weight: 200;
+    margin-top: 3em;
+    color: #FFFFFF;
+}
+h2 span {
+    color: #C271FF;
+    font-weight: 700;
+}
+.pros {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    padding: 8rem ;
+}
+div img[src="./images/Bruce walters.png"] {
+    border-radius: 100%;
+}
+
+.weather{
+    text-align:justify;
+    margin-left: 2.5rem;
+    color: #FFFFFF;
+}
+
+.light-purple {
+    padding-top: 4rem;
+    background-color: #C271FF;
+    padding-bottom: 4rem;
+    margin-bottom: 10rem;
+}
+.weatherman {
+    display:flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.weathermanimage {
+    padding-left: 10rem;
+    max-width: 50%;
+    height: auto;
+}
+
+.weathermanquote {
+    color: #FFFFFF;
+    flex: 1;
+    
+}
+h3 span {
+    padding-left: 4%;
+}
+    
+.popular {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin-left: 10rem;
+    
+}
+h2.blackh2 { 
+    color: black;
+    margin: 5rem;
+}
+.container {
+    position:relative;
+    width: 80%;
+    height: 80%;
+}
+.backgroundsmile {
+    width: 90%;
+    height: 90%;
+
+}
+.overlayimage {
+    position: absolute;
+    width: 25%;
+    height: 20%;
+    top: 40px;
+    bottom: 30px;
+    left: 80px;
+    z-index: 1;
+}
+
+.phillip {
+    width: 12%;
+    height: auto%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+h4 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.5em;
+    color:#C271FF;
+    font-weight: 600;
+}
+.fa-solid {
+    color:#C271FF;
+    size: 10 px;
+
+}
+.stars {
+    display: flex;
+    flex-direction: row;
+    gap:0.3rem;
+}
+#laststar {
+    color: gray;
+}
+.stars::after {
+    content: "8 min";
+    margin-left: 75px;
+    color: #C271FF;
+}
+.stars div:last-child i{
+    color:rgb(176, 173, 173);
+}
+.Lorem {
+    font-weight: 300;
+    font-size:medium;
+}
+.freemembership {
+    background-color: #071629;
+}
+.smileys {
+    display: flex;
+    width:80%;
+    text-align:center;
+    margin-left: 10%;
+    padding-top: 30px;
+
+}
+h3 {
+    color: #FFFFFF;
+}
+
+.h3 {
+    color:#FFFFFF;
+    ;
+}
+.h4 {
+    color: black;
+}
+.FAQ {
+    color: black;
+    font-weight: 300;
+    
+}
+.howdoesthiswork {
+    color: black;
+    font-weight: 600;
+}
+.fourparts {
+    display: flex;
+    width: 70%;
+    padding-left: 15%;
+    gap:10rem;
+    padding-bottom: 3rem;
+}
+.texts {
+    font-weight: 100;
+    text-align: left;
+}
+.footer {
+    background-color: #071629;
+    color: #FFFFFF;
+    padding-top: 3rem;
+}
+.footerflex {
+    display: flex;
+    padding-left:5rem;
+    justify-content: space-between;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+}
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.logo {
+   padding-bottom: 4rem;
+}
+.smileschool {
+    margin-top: 5rem;
+    font-weight: 200;
+    color: gray;
+}
