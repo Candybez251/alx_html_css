@@ -1,0 +1,1 @@
+Headphones Web Page Project This project involves creating a fully functional web page from scratch based on the provided design files. The goal is to implement the page using HTML, CSS, and responsive design techniques to ensure it looks great on desktop, tablet, and mobile devices.
